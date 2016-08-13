@@ -9,5 +9,6 @@ int main ()
          printf("greatest of both is: %d",a);
       else
          printf("greatest of both is: %d",b);
+     return 0;      
 }
    
