@@ -1,0 +1,15 @@
+#include <stdio.h>
+float add(float a, float b,float c)
+{
+return a+b+c;
+} 
+
+int main()
+{
+float x, y, z, sum;
+printf("enter 3 no\n");
+scanf("%f%f%f", &x, &y, &z);
+sum = add(x,y,z);
+printf("sum = %f", sum);
+return 0;
+}
